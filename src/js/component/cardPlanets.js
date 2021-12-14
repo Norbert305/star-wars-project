@@ -40,6 +40,7 @@ export function CardPlanets(props) {
 				<button
 					type="button"
 					className="btn btn-secondary"
+					//using onClick action to push props.planet.name into the navbar.js file
 					onClick={() => actions.addFavorites(props.planet.name)}>
 					<i className="fas fa-heart fa-lg" />
 				</button>
@@ -47,7 +48,7 @@ export function CardPlanets(props) {
 		</div>
 	);
 }
-
+//Passing props in CardPlanets component using earlier mapping from starwars.js file
 CardPlanets.propTypes = {
 	planet: PropTypes.object,
 	position: PropTypes.number

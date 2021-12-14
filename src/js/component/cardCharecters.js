@@ -36,6 +36,7 @@ export function CardCharecters(props) {
 				<button
 					type="button"
 					className="btn btn-secondary"
+					//using onClick action to push props.character.name into the navbar.js file
 					onClick={() => actions.addFavorites(props.charecter.name)}>
 					<i className="fas fa-heart fa-lg" />
 				</button>
@@ -43,7 +44,7 @@ export function CardCharecters(props) {
 		</div>
 	);
 }
-
+//Passing props in CardCharacters component using earlier mapping from starwars.js file
 CardCharecters.propTypes = {
 	charecter: PropTypes.object,
 	position: PropTypes.number
