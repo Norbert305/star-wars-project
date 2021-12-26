@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
 
-export const DetailsPlanet = props => {
+export const DetailsPlanet = () => {
 	const { store, actions } = useContext(Context);
 	let { theid } = useParams();
 	const planet = store.placePlanets[theid];
@@ -23,14 +23,30 @@ export const DetailsPlanet = props => {
 						<h5 className="card-title">{planet && planet.name}</h5>
 						<ul className="hidden">
 							<strong>
-								<li className="card-text">Climate: {planet && planet.climate}</li>
-								<li className="card-text">Diameter: {planet && planet.diameter}</li>
-								<li className="card-text">Gravity: {planet && planet.gravity}</li>
-								<li className="card-text">Orbital Period: {planet && planet.orbital_period}</li>
-								<li className="card-text">Population: {planet && planet.population}</li>
-								<li className="card-text">Rotation Period: {planet && planet.period}</li>
-								<li className="card-text">Surface Water: {planet && planet.surface_water}</li>
-								<li className="card-text">Terrain: {planet && planet.terrain}</li>
+								<p>
+									<li className="card-text">Climate: {planet && planet.climate}</li>
+								</p>
+								<p>
+									<li className="card-text">Diameter: {planet && planet.diameter}</li>
+								</p>
+								<p>
+									<li className="card-text">Gravity: {planet && planet.gravity}</li>
+								</p>
+								<p>
+									<li className="card-text">Orbital Period: {planet && planet.orbital_period}</li>
+								</p>
+								<p>
+									<li className="card-text">Population: {planet && planet.population}</li>
+								</p>
+								<p>
+									<li className="card-text">Rotation Period: {planet && planet.period}</li>
+								</p>
+								<p>
+									<li className="card-text">Surface Water: {planet && planet.surface_water}</li>
+								</p>
+								<p>
+									<li className="card-text">Terrain: {planet && planet.terrain}</li>
+								</p>
 							</strong>
 						</ul>
 					</div>
@@ -38,8 +54,4 @@ export const DetailsPlanet = props => {
 			</div>
 		</div>
 	);
-};
-
-DetailsPlanet.propTypes = {
-	match: PropTypes.object
 };
