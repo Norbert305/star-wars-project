@@ -1,3 +1,11 @@
+# Star-Wars ** Strong In The Force
+![image](https://github.com/Norbert305/star-wars-project/assets/83515541/59c6f231-f008-4b92-a876-e667b4cb6c7d)
+
+
+
+
+
+
 # prerequisites needed:
 <p></p>
 Download Gitpod Chrome Extension: https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
