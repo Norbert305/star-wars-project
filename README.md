@@ -1,3 +1,17 @@
+# prerequisites needed:
+<p></p>
+Download Gitpod Chrome Extension: https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
+<p></p>
+<strong> Don't forget to refresh the repo after you install.</strong>
+<p></p>
+Open Project by clicking on the Green GitPod Button
+<p></p>
+<p></p>
+<p></p>
+
+![image](https://user-images.githubusercontent.com/83515541/217136142-82669610-21cf-4e66-be02-2f3b2c49d3bb.png)
+
+
 # Start Project - terminal
 <p>rm -rf node_modules</p>
 <p>nvm install 14</p>
