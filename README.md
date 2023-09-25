@@ -1,3 +1,12 @@
+# Start Project
+<p>rm -rf node_modules</p>
+<p>nvm install 14</p>
+<p>npm install</p>
+<p>npm run start</p>
+
+
+
+
 # WebApp boilerplate with React JS
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello-webapp.git)
 
