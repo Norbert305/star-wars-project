@@ -1,7 +1,9 @@
-# Start Project
+# Start Project - terminal
 <p>rm -rf node_modules</p>
 <p>nvm install 14</p>
 <p>npm install</p>
+<p>cp ./.env.example ./.env</p>
+<p>echo "BACKEND_URL=https://3001-${GITPOD_WORKSPACE_URL:8}" >> .env</p>
 <p>npm run start</p>
 
 
